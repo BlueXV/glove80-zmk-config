@@ -102,8 +102,8 @@
         };
 
         combo_lock4 {
-            bindings = <&tog 4>;
-            key-positions = <65 66>;
+            bindings = <&tog_on 4>;
+            key-positions = <66 67>;
             layers = <0>;
         };
 
@@ -123,6 +123,11 @@
             bindings = <&tog_off 3>;
             key-positions = <57 73>;
             layers = <3>;
+        };
+
+        combo_unlock4 {
+            bindings = <&tog_off 4>;
+            key-positions = <66 67>;
         };
     };
 
@@ -188,7 +193,7 @@
 &trans          &trans  &trans  &trans  &trans         &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &trans  &trans  &trans  &trans         &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans
 &kp LEFT_SHIFT  &trans  &trans  &trans  &trans         &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&none           &none   &trans  &trans  &kp BACKSPACE          &kp SPACE  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&none           &trans  &trans  &trans  &kp BACKSPACE          &kp SPACE  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
