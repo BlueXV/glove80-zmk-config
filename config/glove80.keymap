@@ -101,15 +101,8 @@
             layers = <0>;
         };
 
-        combo_unlock4 {
-            bindings = <&tog_off 4>;
-            key-positions = <65 66>;
-            layers = <4>;
-            timeout-ms = <0>;
-        };
-
         combo_lock4 {
-            bindings = <&tog_on 4>;
+            bindings = <&tog 4>;
             key-positions = <65 66>;
             layers = <0>;
         };
