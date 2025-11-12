@@ -103,7 +103,7 @@
 
         combo_lock4 {
             bindings = <&tog_on 4>;
-            key-positions = <66 67>;
+            key-positions = <71 55>;
             layers = <0>;
         };
 
@@ -127,7 +127,7 @@
 
         combo_unlock4 {
             bindings = <&tog_off 4>;
-            key-positions = <66 67>;
+            key-positions = <71 55>;
         };
     };
 
